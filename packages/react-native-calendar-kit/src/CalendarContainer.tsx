@@ -93,6 +93,7 @@ const CalendarContainer: React.ForwardRefRenderFunction<
     onChange,
     onDateChanged,
     onPressBackground,
+    onLongPressBackground,
     onPressDayNumber,
     onRefresh,
     unavailableHours,
@@ -705,6 +706,7 @@ const CalendarContainer: React.ForwardRefRenderFunction<
 
   const actionsProps = {
     onPressBackground,
+    onLongPressBackground,
     onPressDayNumber,
     onRefresh,
     onChange,
